@@ -40,5 +40,14 @@ image::http://www.plantuml.com/plantuml/png/SoWkIImgAStDuKhEIImkLWX8BIhEprEevb9G
 
 https://render.githubusercontent.com/render/math?math=\displaystyle \text{b} = V D
 
+=== Collapsible
+
+.see content
+[%collapsible]
+====
+* Hello world
+====
+
+
 == Further stuff
 

@@ -70,9 +70,9 @@ Just paste the url and click kbd:[Decode URL]
  ----
 ----
 
-[source, java]
+[source,java,linenos]
 ----
-include::https://raw.githubusercontent.com/htl-leonding/autograding-demo-jdk/main/hello-world/src/main/java/at/htl/helloworld/Main.java[]
++include::https://raw.githubusercontent.com/htl-leonding/autograding-demo-jdk/main/hello-world/src/main/java/at/htl/helloworld/Main.java[]
 ----
 
 === Sources

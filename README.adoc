@@ -9,7 +9,7 @@ ifdef::env-github[]
 :warning-caption: :warning:
 endif::[]
 :sectnums:
-:experimental:
+:experimental:  // for the keyboard macro
 
 Here is my preamble paragraph, but I could really place the TOC anywhere! Lorem ipsum foo bar baz.
 
@@ -79,6 +79,8 @@ include::hello-world/src/main/java/at/htl/helloworld/Main.java[]
 
 * https://blog.doubleslash.de/github-readme-r-i-p-markdown-es-lebe-asciidoc/[Github-README: R.I.P. Markdown – es lebe AsciiDoc!]
 * https://gist.github.com/dcode/0cfbf2699a1fe9b46ff04c41721dda74[GitHub Flavored Asciidoc (GFA)]
+* https://gist.github.com/powerman/d56b2675dfed38deb298[Asciidoc cheatsheet for GitHub]
+* https://www.informatik.htw-dresden.de/~zirkelba/praktika/se/arbeiten-mit-git-und-asciidoc/[Arbeiten mit Git und AsciiDoc] <- geniale Seite!
 * https://github.com/github/markup#markups[supported markups in github]
 
 

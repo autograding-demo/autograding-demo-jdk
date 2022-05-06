@@ -29,4 +29,4 @@ CAUTION: Don't forget to add the `...-caption` document attributes in the header
 
 WARNING: You have no reason not to use Asciidoctor.
 
-image::https://www.plantuml.com/plantuml/uml/SoWkIImgAStDuKhEIImkLWX8BIhEprEevb9Gq4tBB2ekyKlCJRLI22ufoinBnovOo-MGcfS2D080[]
+image::www.plantuml.com/plantuml/png/SoWkIImgAStDuKhEIImkLWX8BIhEprEevb9Gq4tBB2ekyKlCJRLI22ufoinBnovOo-MGcfS2D080[]

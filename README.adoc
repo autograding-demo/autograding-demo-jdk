@@ -9,6 +9,7 @@ ifdef::env-github[]
 :warning-caption: :warning:
 endif::[]
 :sectnums:
+:experimental:
 
 Here is my preamble paragraph, but I could really place the TOC anywhere! Lorem ipsum foo bar baz.
 
@@ -36,9 +37,20 @@ WARNING: You have no reason not to use Asciidoctor.
 
 === Images (UML-Diagrams)
 
+[source,asciidoc]
+----
+ image::http://www.plantuml.com/plantuml/png/SoWkIImgAStDuKhEIImkLWX8BIhEprEevb9Gq4tBB2ekyKlCJRLI22ufoinBnovOo-MGcfS2D080[]
+----
+
+will be rendered to
+
 image::http://www.plantuml.com/plantuml/png/SoWkIImgAStDuKhEIImkLWX8BIhEprEevb9Gq4tBB2ekyKlCJRLI22ufoinBnovOo-MGcfS2D080[]
 
-https://render.githubusercontent.com/render/math?math=\displaystyle \text{b} = V D
+You can easily reverse-engineer this diagram at
+
+https://www.plantuml.com/plantuml/uml/
+
+Just paste the url and click kbd:[Decode URL]
 
 === Collapsible
 
@@ -48,6 +60,28 @@ https://render.githubusercontent.com/render/math?math=\displaystyle \text{b} = V
 * Hello world
 ====
 
+=== Source Code
+
+[source,asciidoc]
+----
+ [source, java]
+ ----
+ include::hello-world/src/main/java/at/htl/helloworld/Main.java[]
+ ----
+----
+
+[source, java]
+----
+include::hello-world/src/main/java/at/htl/helloworld/Main.java[]
+----
+
+=== Sources
+
+* https://blog.doubleslash.de/github-readme-r-i-p-markdown-es-lebe-asciidoc/[Github-README: R.I.P. Markdown – es lebe AsciiDoc!]
+* https://gist.github.com/dcode/0cfbf2699a1fe9b46ff04c41721dda74[GitHub Flavored Asciidoc (GFA)]
+* https://github.com/github/markup#markups[supported markups in github]
+
 
 == Further stuff
 
+Actually wanted demoing autograding, but got distracted ...

@@ -28,3 +28,5 @@ IMPORTANT: Asciidoctor is awesome, don't forget!
 CAUTION: Don't forget to add the `...-caption` document attributes in the header of the document on GitHub.
 
 WARNING: You have no reason not to use Asciidoctor.
+
+image::https://www.plantuml.com/plantuml/uml/SoWkIImgAStDuKhEIImkLWX8BIhEprEevb9Gq4tBB2ekyKlCJRLI22ufoinBnovOo-MGcfS2D080[]

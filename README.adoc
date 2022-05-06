@@ -1,3 +1,4 @@
+= Autograding in GitHub Classroom
 :toc:
 :toc-placement!:
 ifdef::env-github[]
@@ -7,11 +8,15 @@ ifdef::env-github[]
 :caution-caption: :fire:
 :warning-caption: :warning:
 endif::[]
+:sectnums:
 
 Here is my preamble paragraph, but I could really place the TOC anywhere! Lorem ipsum foo bar baz.
 
 toc::[]
 
+== adoc-Demo in README
+
+=== Admonitions
 
 [NOTE]
 ====
@@ -29,4 +34,11 @@ CAUTION: Don't forget to add the `...-caption` document attributes in the header
 
 WARNING: You have no reason not to use Asciidoctor.
 
+=== Images (UML-Diagrams)
+
 image::http://www.plantuml.com/plantuml/png/SoWkIImgAStDuKhEIImkLWX8BIhEprEevb9Gq4tBB2ekyKlCJRLI22ufoinBnovOo-MGcfS2D080[]
+
+https://render.githubusercontent.com/render/math?math=\displaystyle \text{b} = V D
+
+== Further stuff
+

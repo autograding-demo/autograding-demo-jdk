@@ -66,13 +66,13 @@ Just paste the url and click kbd:[Decode URL]
 ----
  [source, java]
  ----
- include::hello-world/src/main/java/at/htl/helloworld/Main.java[]
+ include::https://raw.githubusercontent.com/htl-leonding/autograding-demo-jdk/main/hello-world/src/main/java/at/htl/helloworld/Main.java[]
  ----
 ----
 
 [source, java]
 ----
-include::hello-world/src/main/java/at/htl/helloworld/Main.java[]
+include::https://raw.githubusercontent.com/htl-leonding/autograding-demo-jdk/main/hello-world/src/main/java/at/htl/helloworld/Main.java[]
 ----
 
 === Sources

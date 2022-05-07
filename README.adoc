@@ -20,6 +20,8 @@ toc::[]
 
 == adoc-Demo in README
 
+CAUTION: This chapter is off-topic, but wanted to cover it.
+
 === Admonitions
 
 [NOTE]

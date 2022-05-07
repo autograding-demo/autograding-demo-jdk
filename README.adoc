@@ -72,6 +72,7 @@ class Person {
 @enduml
 ----
 
+image::http://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/htl-leonding/autograding-demo-jdk/main/plantuml/cld.puml
 
 === Collapsible
 

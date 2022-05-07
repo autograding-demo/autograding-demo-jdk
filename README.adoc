@@ -37,6 +37,8 @@ WARNING: You have no reason not to use Asciidoctor.
 
 === Images (UML-Diagrams)
 
+==== plantuml-diagram only w/o puml-file
+
 [source,asciidoc]
 ----
  image::http://www.plantuml.com/plantuml/png/SoWkIImgAStDuKhEIImkLWX8BIhEprEevb9Gq4tBB2ekyKlCJRLI22ufoinBnovOo-MGcfS2D080[]
@@ -52,27 +54,19 @@ https://www.plantuml.com/plantuml/uml/
 
 Just paste the url and click kbd:[Decode URL]
 
+==== plantuml-diagram reffering to puml-file
 
-```plantuml
-@startuml
-class Person {
-  -firstName: String
-  -firstName: String
-}
-@enduml
-```
-
-[plantuml,cld]
+.referring to <project-root>/plantuml/cld.puml
+[source,asciidoc]
 ----
-@startuml
-class Person {
-  -firstName: String
-  -firstName: String
-}
-@enduml
+ image::http://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/htl-leonding/autograding-demo-jdk/main/plantuml/cld.puml[]
 ----
 
 image::http://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/htl-leonding/autograding-demo-jdk/main/plantuml/cld.puml[]
+
+* When you update your puml-file, this image will be updated too
+
+IMPORTANT: Maybe in private repos are permission issues
 
 === Collapsible
 
@@ -105,6 +99,8 @@ include::https://raw.githubusercontent.com/htl-leonding/autograding-demo-jdk/mai
 * https://gist.github.com/dcode/0cfbf2699a1fe9b46ff04c41721dda74[GitHub Flavored Asciidoc (GFA)]
 * https://gist.github.com/powerman/d56b2675dfed38deb298[Asciidoc cheatsheet for GitHub]
 * https://www.informatik.htw-dresden.de/~zirkelba/praktika/se/arbeiten-mit-git-und-asciidoc/[Arbeiten mit Git und AsciiDoc] <- geniale Seite!
+* https://blog.anoff.io/2018-07-31-diagrams-with-plantuml/[Markdown native diagrams with PlantUML]
+* https://blog.anoff.io/puml-cheatsheet.pdf[plantuml-cheatsheet]
 * https://github.com/github/markup#markups[supported markups in github]
 
 

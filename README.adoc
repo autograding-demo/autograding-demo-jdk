@@ -8,6 +8,9 @@ ifdef::env-github[]
 :caution-caption: :fire:
 :warning-caption: :warning:
 endif::[]
+ifndef::env-github[]
+:icons: font
+endif::[]
 :sectnums:
 :experimental:  // for the keyboard macro
 
@@ -106,6 +109,81 @@ include::https://raw.githubusercontent.com/htl-leonding/autograding-demo-jdk/mai
 * https://github.com/github/markup#markups[supported markups in github]
 
 
-== Further stuff
+== Autograding
 
-Actually wanted demoing autograding, but got somewhat distracted ...
+=== Set Java-Version
+
+* gh-autograding uses per default java 11 (🤯)
+* but there is a workaround: https://github.com/education/autograding/issues/18#issuecomment-627432895[workaround for java version]
+
+* Basically you get the default gh-actions for autograding and add the installation for java 18
++
+..github/workflows/classroom.yml
+[%collapsible]
+====
+[source,yaml]
+----
+    name: GitHub Classroom Workflow
+
+    on:
+      push:
+      workflow_dispatch:
+
+    permissions: write-all
+
+    jobs:
+      build:
+        name: Autogradingx
+        runs-on: ubuntu-latest
+        steps:
+          - uses: actions/checkout@v3
+          - uses: actions/setup-java@v3
+            with:
+              distribution: 'temurin'
+              java-version: '17'
+              cache: 'maven'
+          - uses: education/autograding@v1
+----
+====
++
+..github/classroom/autograding.json
+[%collapsible]
+====
+[source,json]
+----
+{
+  "tests": [
+    {
+      "name": "MainTest",
+      "setup": "cd hello-world && ./mvnw compile",
+      "run": "cd hello-world && ./mvnw test",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 5
+    }
+  ]
+}
+----
+====
+
+* Because gh-classroom overwrites the workflow in the template-repo, it is recommended to remove the autograding when editing the assignment in classroom.
+
+* Copy the .github-folder into the template-repo and it will work
+
+TIP: Noticed, that sometimes you have to run the workflow twice after editing the classroom.yml.
+
+=== Autograding failure: HttpError: Resource not accessible by integration
+
+* add the `permissions: write-all` to classroom.yml
+
+
+
+
+
+
+
+
+
+

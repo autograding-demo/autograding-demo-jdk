@@ -183,7 +183,7 @@ TIP: Noticed, that sometimes you have to run the workflow twice after editing th
 
 === Sources
 
-* https://www.youtube.com/playlist?list=PL9rLYHglJZYVFKGRvnvnYdsLxHqnZ-jPX[mirah - github teacher basics] <- recommend this tutorial
+* https://www.youtube.com/playlist?list=PL9rLYHglJZYVFKGRvnvnYdsLxHqnZ-jPX[mirah - github teacher basics^] <- recommend this tutorial
 
 
 

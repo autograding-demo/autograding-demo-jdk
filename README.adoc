@@ -78,6 +78,8 @@ IMPORTANT: Maybe in private repos are permission issues
 
 === Source Code
 
+CAUTION: Unfortunately github doesn't support asciidoctor-includes
+
 [source,asciidoc]
 ----
  [source, java]

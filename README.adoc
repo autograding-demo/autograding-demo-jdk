@@ -181,7 +181,9 @@ TIP: Noticed, that sometimes you have to run the workflow twice after editing th
 * add the `permissions: write-all` to classroom.yml
 
 
+=== Sources
 
+* https://www.youtube.com/playlist?list=PL9rLYHglJZYVFKGRvnvnYdsLxHqnZ-jPX[mirah - github teacher basics] <- recommend this tutorial
 
 
 
